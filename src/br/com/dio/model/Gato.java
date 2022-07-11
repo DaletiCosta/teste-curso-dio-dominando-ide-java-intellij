@@ -1,31 +1,31 @@
-package br.com.dio.model.
+package br.com.dio.model;
 
 import java.util.Objects;
 
 public class Gato {
-    private string nome;
-    private string cor;
+    private String nome;
+    private String cor;
     private Integer idade;
 
-                public Gato(string nome, string cor, Integer idade) {
+                public Gato() {
                         this.nome = nome;
                         this.cor = cor;
                         this.idade = idade;
                 }
 
-                public string getNome() {
+                public String getNome() {
                         return nome;
                 }
 
-                public void setNome(string nome) {
+                public void setNome(String nome) {
                         this.nome = nome;
                 }
 
-                public string getCor() {
+                public String getCor() {
                         return cor;
                 }
 
-                public void setCor(string cor) {
+                public void setCor(String cor) {
                         this.cor = cor;
                 }
 
